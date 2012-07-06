@@ -8,7 +8,8 @@ package main
             "flag"
     )
      
-    var Celsius = flag.Bool("c", false, "convert from Celsius to Fahrenheit") // set a boolean flag for celsius conversions
+    // set a boolean flag, "c"
+    var Celsius = flag.Bool("c", false, "convert from Celsius to Fahrenheit")
      
     // fahrenheit -> celsius conversion
     func convertf(sum float32) (y float32) {
